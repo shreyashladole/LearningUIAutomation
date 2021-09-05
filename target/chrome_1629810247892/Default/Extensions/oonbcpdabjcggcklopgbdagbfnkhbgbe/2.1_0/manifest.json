@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "stats.js" ]
+   },
+   "browser_action": {
+
+   },
+   "chrome_url_overrides": {
+      "newtab": "ntab.html"
+   },
+   "description": "A simple new tab, with Yahoo provided search.",
+   "icons": {
+      "128": "search.png",
+      "16": "search.png",
+      "48": "search.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAixKNqCgjRrp60cmEtIlkuA/XCTK6g7wiOTTtXABoGhEvUv/TF+UhQeLDBd/5uF30tTnnbNvD8vpQCSBHYlJnGPIbHS5ERpzw4m2LLh7IvaKskNqKItG8XTtXTMWYSC6kAPPXKuREIWsYU9J4jVaR2LwpMO6vlbaXNpV+GtAvHMyT+SdDhmjV8IHC+wPnGYxJpMtU6SNkdG7KoPfncL6uVneOIM73u0VX3bgnvwAyMsVFVv+4GBmykFF/Mr+qetBAadpYNPcwIHKM0cz44o6eTcoYzJyUyRptGVs3UlUmnqCeqxZ9LB3cTno1IjZ88gzcDWbkYXTg4Vpg1aOAyiFvkwIDAQAB",
+   "manifest_version": 2,
+   "name": "tTab",
+   "permissions": [ "contextMenus", "tabs", "*://*.yahoo.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1"
+}
