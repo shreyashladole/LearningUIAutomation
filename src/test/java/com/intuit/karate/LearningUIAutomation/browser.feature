@@ -26,4 +26,3 @@ Feature: karate ui automation
     * configure driver = {type: 'geckodriver'}
     Given driver 'https://www.amazon.in/'
 And driver.maximize();
- * delay(5000)
