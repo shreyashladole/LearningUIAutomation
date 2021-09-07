@@ -27,3 +27,4 @@ Feature: karate ui automation
     Given driver 'https://www.amazon.in/'
 And driver.maximize();
  * delay(5000)
+    * delay(5000)
